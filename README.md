@@ -10,6 +10,7 @@ This program utilizes OpenCV, Mediapipe, and PyAutoGUI to control the game Subwa
   
 ## Tabs Format
 Keep the browser and camera tab open side-by-side, you can continuously monitor your body position, actions triggered, and the corresponding gameplay effects. This setup provides a clear and immediate understanding of the interaction between your physical movements and the game, leading to a more immersive and enjoyable experience.
+
 ![image](https://github.com/ArhaanB24/SubwaySurfers_PoseDetection/assets/94664693/1942006f-979c-43e2-987f-15b8f65a51cf)
 
 ## Key features:
