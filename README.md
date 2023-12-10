@@ -9,9 +9,9 @@ Jump: Jump over the yellow line.
 Duck: Duck below the blue line.
 
 ## Key features:
-Shoulder detection to control character movement.
-Jump and duck functionality based on body position.
-Automatic game launch through web browser.
+- Shoulder detection to control character movement.
+- Jump and duck functionality based on body position.
+- Automatic game launch through web browser.
 
 ## Requirements:
 Python 3
