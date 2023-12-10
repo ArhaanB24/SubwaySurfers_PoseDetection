@@ -7,6 +7,9 @@ This program utilizes OpenCV, Mediapipe, and PyAutoGUI to control the game Subwa
 - Move left: Shift your entire body to the left of the green line if you are in the center lane, if you are the in the right lane then align yourself with the green line to move left.
 - Jump: Jump over the yellow line.
 - Duck: Duck below the blue line.
+  
+## Tabs Format
+![image](https://github.com/ArhaanB24/SubwaySurfers_PoseDetection/assets/94664693/1942006f-979c-43e2-987f-15b8f65a51cf)
 
 ## Key features:
 - Shoulder detection to control character movement.
