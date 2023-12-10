@@ -21,10 +21,10 @@ Keep the browser and camera tab open side-by-side, you can continuously monitor 
 
 ## Requirements:
 Python 3
-OpenCV
-Mediapipe
-PyAutoGUI
-Web browser
+- OpenCV
+- Mediapipe
+- PyAutoGUI
+- Web browser
 ```
 pip install opencv-python mediapipe pyautogui webbrowser
 ```
