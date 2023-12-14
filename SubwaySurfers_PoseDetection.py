@@ -2,6 +2,7 @@ import cv2
 import mediapipe as mp
 import pyautogui 
 import webbrowser
+# import threading
 cam = cv2.VideoCapture(0)
 mppose = mp.solutions.pose
 pose = mppose.Pose()
@@ -11,8 +12,13 @@ y_pos = 0
 webbrowser.open("https://poki.com/en/g/subway-surfers")
 while True:
     img,frame = cam.read()
+    desired_width = 720
+    aspect_ratio = frame.shape[1] / frame.shape[0]
+    desired_height = int(desired_width / aspect_ratio)
+    frame = cv2.resize(frame, (desired_width, desired_height))
     height,width = frame.shape[:2]
-    frame = cv2.flip(frame,1)
+    frame = cv2.flip(frame,1) #1080 1920
+    # print(height,width)
     x,y = int(width/2),int(height/2)
     cv2.line(frame,(x,y*2),(x,0),(0,255,0),3)
     cv2.line(frame,(0,int(y/2)),(x*2,int(y/2)),(0,255,255),3)
@@ -57,3 +63,5 @@ while True:
                 x_pos += 1
     cv2.imshow("Taqneeq",frame)
     cv2.waitKey(1)  
+cam.release()
+cv2.destroyAllWindows()
