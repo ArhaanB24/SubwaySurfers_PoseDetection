@@ -24,9 +24,12 @@ Python 3
 - OpenCV
 - Mediapipe
 - PyAutoGUI
-- Web browser
 ```
-pip install opencv-python mediapipe pyautogui webbrowser
+pip install opencv-python mediapipe pyautogui 
+```
+or
+```
+pip install -r requirements.txt 
 ```
 ## Code breakdown:
 - The code imports necessary libraries and opens the webcam.
